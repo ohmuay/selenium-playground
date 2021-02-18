@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Page One</title>
+  </head>
+  <body>
+    <form id="user-form">
+      <label for="first-name">First Name: </label>
+      <input type="text" class="first-name" />
+
+      <label for="last-name">Last Name: </label>
+      <input type="text" class="last-name"/>
+
+      <label for="gid">GID: </label>
+      <input type="text" class="gid"/>
+
+      <textarea name="text" id="text-area" cols="30" rows="10"></textarea>
+
+      <div class="radio-group">
+        <div class="input-group">
+          <input type="radio" name="gender" id="male" value="male" checked/>
+          <label for="male">ชาย</label>
+        </div>
+
+        <div class="input-group">
+          <input type="radio" name="gender" value="female" id="female" />
+          <label for="female">หญิง</label>
+        </div>
+
+        <div class="input-group">
+          <input type="radio" name="gender" value="binary" id="binary" />
+          <label for="binary">ไม่ระบุ</label>
+        </div>
+      </div>
+
+      <div class="select-group">
+        <select name="site" id="site-dropdown">
+          <option value="TT">Teparak</option>
+          <option value="TK">Korat</option>
+          <option value="STST">Springtown</option>
+          <option value="NRM">Normandale</option>
+        </select>
+      </div>
+
+      <div class="checkbox-group">
+        <div class="input-group">
+          <input type="checkbox" class="checkbox" name="box-1" id="cb1" />
+          <label for="cb1">Check Box 1</label>
+        </div>
+
+        <div class="input-group">
+          <input type="checkbox" class="checkbox" name="box-2" id="cb2" />
+          <label for="cb2">Check Box 2</label>
+        </div>
+
+        <div class="input-group">
+          <input type="checkbox" class="checkbox" name="box-3" id="cb3" />
+          <label for="cb3">Check Box 3</label>
+        </div>
+
+        <div class="input-group">
+          <input type="checkbox" class="checkbox" name="box-4" id="cb4" />
+          <label for="cb4">Check Box 4</label>
+        </div>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+    <script src="./script2.js"></script>
+  </body>
+</html>

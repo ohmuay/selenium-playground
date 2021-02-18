@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+main {
+  background: linear-gradient(to right, #457b9d, #a8dadc);
+  min-height: 100vh;
+  display: flex;
+}
+
+#login-form {
+  padding: 0 5%;
+  margin: 10rem auto;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  flex: 1;
+}
+
+#login-form label {
+  text-transform: uppercase;
+  color: #333;
+}
+
+#login-form input {
+  padding: 5px 8px;
+  margin: 0.5rem 0;
+}
+
+#submit-button {
+  margin-top: 2rem;
+  cursor: pointer;
+  border: none;
+  background: #eee;
+  /* color: #fff; */
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  box-shadow:0 1rem 3rem rgba(0,0,0,.2);
+}
+
+#submit-button:hover {
+    color: #fff;
+    background: mediumturquoise;
+    transform: translateY(-5px);
+    box-shadow:0 1.5rem 2rem rgba(0,0,0,.2);
+}
+
+
+
+#user-form{
+    display:flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 5rem auto;
+}
+
+.radio-group{
+    display:flex;
+    flex-direction: column;
+}
+
+
+#user-form label{
+    color:#333;
+}
+
+#user-form input{
+    margin: 1rem 0;
+}
+
+.checkbox-group{
+    display:flex;
+}
+.input-group{
+    margin-right:1rem;
+}
